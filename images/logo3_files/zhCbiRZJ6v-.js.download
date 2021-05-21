@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["AfgHpLV"]); }
+
+__d("useThrottledBlue",["react","throttle","useLayoutEffect_SAFE_FOR_SSR"],(function(a,b,c,d,e,f){"use strict";e.exports=a;var g,h=g||b("react");function a(a,c){c===void 0&&(c=100);var d=h.useRef(a);b("useLayoutEffect_SAFE_FOR_SSR")(function(){d.current=a;return function(){d.current=null}},[a]);var e=h.useMemo(function(){return b("throttle")(function(){for(var a=arguments.length,b=new Array(a),c=0;c<a;c++)b[c]=arguments[c];d.current==null?void 0:d.current.apply(d,b)},c)},[c]);return e}}),null);

@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["PMtYbCb"]); }
+
+__d("ActorURIConfig",[],(function(a,b,c,d,e,f){e.exports=Object.freeze({PARAMETER_ACTOR:"av",ENCRYPTED_PARAMETER_ACTOR:"eav"})}),null);
+__d("ActorURI",["ActorURIConfig","URI"],(function(a,b,c,d,e,f){f.create=a;var g;function a(a,c){return new(g||(g=b("URI")))(a).addQueryData(b("ActorURIConfig").PARAMETER_ACTOR,c)}c=b("ActorURIConfig").PARAMETER_ACTOR;f.PARAMETER_ACTOR=c}),null);
+__d("useLayoutEffect_SAFE_FOR_SSR",["ExecutionEnvironment","react"],(function(a,b,c,d,e,f){"use strict";var g;a=g||b("react");c=b("ExecutionEnvironment").canUseDOM?a.useLayoutEffect:a.useEffect;d=c;e.exports=d}),null);

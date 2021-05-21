@@ -1,0 +1,619 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #fff;
+    font-size: 15px;
+    color:#727272;
+}
+h1, h2,h3,h4,h5,h6 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: normal;
+	color: #272727;
+	text-transform: uppercase;
+    font-weight: 500;
+}
+p {
+	font-family:'Open Sans', sans-serif;
+	font-weight: normal;
+	line-height: 2.3rem;
+}
+a {
+	color: #272727;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	
+    color: #fc4242;
+}
+
+
+/*Navbar Start Here*/
+.navbar{
+    width:100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.navbar-header .logo-text{
+    color:rgb(48, 48, 233);
+	font-weight:400;
+	font-size: 2rem;
+	line-height: 1rem;
+	text-decoration: none;
+    font-weight: bold;
+}
+.navbar .icon-bar{
+    background-color: #727272;
+}
+.collapse .active a{
+    color:#fc4242;
+}
+
+.collapse ul li a:hover{
+    color: #fc4242;
+    background:none;   
+}
+.dropdown-menu{
+    background-color: lightgray;
+    border-top:2px solid #fc4242;
+}
+.dropdown-menu li{
+    border-bottom:1px solid #dbdbdb;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+}
+/*carousel start here*/
+.carousel .item1{
+    background-image: url("../images/slide1.jpg");
+    background-size: cover;
+    height:80vh;
+}
+
+.text{
+    width:80%;
+    margin: 0 auto;
+    height:80vh;
+    padding-top: 10vh;
+}
+
+.text .box1 h1{
+    color: #fff;
+    font-size: 5.5rem;
+    font-weight: 1000;
+    line-height: 6rem;
+    padding-bottom: 3rem;
+}
+
+.text .box1 p{
+    color: #fff; 
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+
+}
+.text .images img{
+    width: fit-content;
+}
+.button1{
+    background-color: #fc4242;
+    border: none;
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+    height: 4rem;
+    width:20rem;
+}
+
+.button1:hover{
+    background-color: #fff;
+    border:1px solid gray;
+    color:black;
+}
+
+.carousel .item2{
+    background-image: url("../images/slide2.jpg");
+    background-size: cover;
+    height:80vh;
+}
+.text1{
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.text1 h1{
+    color:#fff;
+    font-weight: bolder;
+    padding-top: 15rem;
+}
+.text1 p{
+    color:#fff;
+    line-height: 1.6rem;
+    word-spacing:0.3rem;
+    padding-top:0.8rem;
+}
+.carousel .item3{
+    background-image: url("../images/slide3.jpg");
+    background-size: cover;
+    height:80vh;
+}
+
+/*What we provide start here*/
+section{
+    background-color:#f0f0f0;
+}
+
+.heading-1{
+    text-align: center;
+    padding-top:6rem;
+    padding-bottom:4rem;
+}
+.container .part{
+    text-align: center;   
+}
+
+.container .part img{
+    padding-bottom: 3rem;
+    transition: all 1s ease-in-out 0;
+}
+.container .part img:hover{
+    transform: scale(1.2);
+}
+.container .part h4{
+    line-height: 3rem;
+    font-weight:900;
+    padding:0 4rem;
+    margin: 2rem 0;
+    
+}
+.container .part2{
+    text-align: center;
+    padding-bottom:3rem;
+}
+.part2 .button1{
+    width:10rem;
+    margin:3rem 0;
+}
+/*SECTION2 COLOR WHITE*/
+.section2 h2{
+    color: #fff;
+}
+.section2 .part {
+    color: white;
+}
+.section2 .part h4{
+    color:white;
+}
+.section2{
+    background-image: url("../images/wallpaper.jpg");
+    background-position: fixed;
+    background-size: cover;
+    padding-bottom: 5rem;
+}   
+/*Reponsive design start here*/
+.rightB h1{
+    margin-top: 8.5rem;
+    padding-bottom:1rem;
+    border-bottom:1px solid gray;
+}
+.rightB i{
+    border:2px dashed white;
+    background-color: #fc4242;
+    width:100px;
+    height:100px;
+    padding-top: 2rem;
+    padding-left: 2.1rem;
+    font-size: 4.8rem;
+    color: white;
+    margin-top: 1rem;
+}
+.rightB i:hover{
+    background-color: white;
+    color:#fc4242;
+}
+.rightB .div1{
+    display: none;
+}
+.rightB .div2{
+    display: none;
+}
+.rightB .div3{
+    display: none;
+}
+.rightB .nocaps{
+    text-transform: capitalize;
+    padding-left:4rem;
+}
+.rightB p{
+    padding-left:4rem;
+}
+.rightB .box{
+    margin-top: 1rem;
+}
+
+/*Our Project*/
+.our-project{
+    background-image: url(../images/wallpaper.jpg);
+    background-size: cover;
+}
+.our-project .heading2{
+    text-align: center;
+    margin:4rem 0;
+}
+.heading2 h1{
+    color: #fff;
+}
+.web{
+    transition: all 2s ease-in-out 0;
+}
+.web:hover{
+    transform:scale(1.1);
+}
+.web img{
+    width:100%;
+}
+.web2{
+    background-color:#0009;
+    position: relative;
+    top:-60px;
+    text-align: center;
+}
+
+.web2 h2{
+    font-size: 1.6rem;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.web2 p{
+    color:white;
+}
+/*FUNFACTS*/
+.funfacts{
+    background-color: #f0f0f0;
+    padding-bottom:4rem;
+}
+.funfacts h1{
+    text-align: center;
+    margin:4rem 0;
+}
+.num {
+    text-align: center;
+    margin:2rem 0;
+}
+.num h1:hover{
+    background-color:#fc4242;
+}
+.num h1{
+    border:2px solid #fc4242;
+    border-radius:25px 25px 25px 0;
+    padding:2rem;
+    width:40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.num p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-top:2rem;
+    letter-spacing: 0.1rem;
+    color:black;
+}
+/***Feature start here**/
+.feature{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.986), rgba(255, 255, 255, 0.247)),
+    url("../images/background2.jpg");
+    background-size: cover;
+    background-position:fixed;   
+}
+
+.feature h1{
+    text-align: center;
+    padding:3rem 0;
+}
+.feature .container{
+    background-color:rgb(255,255,255,0.7)
+}
+
+.core{
+    text-align: right;
+    padding-top:5rem;
+}
+.core h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.core h3:hover{
+    color:#fc4242;
+}
+.core .new{
+    margin-top:2.5rem;
+   
+}
+.core i{
+    font-size: 3rem;
+    border:5px double black;
+    padding:2.5rem;
+    border-radius: 50px;
+    color:black;
+}
+.core i:hover{
+    background-color:#fc4242;;
+}
+.core p{
+    color:black;
+}
+.mid{
+    text-align: center;
+}
+.mid img{
+    width:90%;
+}
+.core1{
+    text-align: left;
+}
+
+/**Success Start here**/
+.success{
+    padding-top:4rem;
+    padding-bottom:4rem;
+}
+.lbox img{
+    width: 100%;
+}
+.rbox h1{
+    border-bottom: 1px solid gray;
+    padding-bottom:2rem;
+}
+.rbox .icon{
+    text-align: center;
+    padding-right: 2rem;
+}
+.rbox i{
+    text-align: center;
+    font-size: 4rem;
+    padding:2rem 3rem;
+    margin:2.2rem 4rem;
+    border:1px solid gray;
+    background-color: #fc4242;
+    color:white;
+}
+
+.rbox .nocaps{
+    color:#fc4242;
+    text-transform: capitalize;
+    padding-bottom:1rem;
+    padding-left:1.5rem;
+}
+.rbox p{
+    color:gray;
+    font-size:1.4rem;
+    padding-left:1.5rem;
+}
+.innerbox{
+    border-bottom: 1px solid gray;
+}
+.innerbox .change h3{
+    color:black;
+}
+.innerbox .change h3:hover{
+    color: #fc4242;
+}
+.rbox .check i{
+    background-color: gray;
+    font-size: 4rem;
+    padding:3.5rem;
+}
+.rbox .check i:hover{
+    background-color:  #fc4242;
+}
+.noborder{
+    border-bottom: none;
+}
+/*Testimonial Start Here*/
+
+.testimonial{
+    width: 100%;
+    background-image: url("../images/creative.jpeg");
+    
+}
+.testimonial .container{
+    background-color:rgb(255,255,255,0.7);
+    padding-bottom:5rem;
+}
+.testimonial .client{
+    text-align: center;
+    padding:3rem 0 2rem 0;
+
+}
+
+.maincard {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+
+.thecard:hover {
+    transform: rotateY(180deg)
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hidden;
+    background: #D50000;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 5.5rem 0;
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: hidden;
+    background: #D50000;
+    color: #fff;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 2rem;
+}
+
+.user_name {
+    color: #eee;
+    font-size: 1.4rem;
+    margin-top: 0px
+}
+
+.about {
+    font-size: 12px
+}
+/**Footer start here**/
+footer{
+    background-color: #181818;
+    padding:5rem 0;
+}
+footer h4{
+    text-transform: capitalize;
+    color: #fff;
+    padding-bottom:2rem;
+    text-align: left;
+}
+footer a{
+    color: gray;
+}
+footer a:hover{
+    color:#fff;
+}
+footer ul{
+    text-decoration: none;
+}
+footer ul li{
+    list-style-type: none;
+    padding-bottom:2rem;
+}
+.part1{
+    text-align: center;
+}
+.part1 p{
+    text-align: left;
+    padding:1rem;
+    margin-top:1rem;
+}
+.part2 ul{   
+    text-align: left;
+}
+
+.container .part2 span{ 
+    font-size: medium;
+    padding:0;
+    margin-right: 1rem;
+}
+.container .part2 span:hover{
+    color:#fff;
+}
+.container .part2 a:hover{
+    color:#fff;
+}
+
+.part3 i{
+    font-size: medium;
+    width:30px;
+    text-align: center;
+    padding-top:5px;
+    height: 30px;
+    background-color: #fff;
+    color:black;
+    border-radius: 50%;
+    margin-right: 3rem;
+}
+.part3 i:hover{
+    background-color:#fc4242; 
+}
+ input{
+    width:80%;
+    height:30px;
+    margin-bottom: 2rem;
+}
+textarea{
+    width:80%;
+    height:60px;
+    margin-bottom: 2rem;
+}
+.part3 button{
+    width:80%;
+    height:40px;   
+    background-color: #fc4242; 
+    color:white;
+    border:none;
+}
+.part3 button:hover{
+    background-color: white;
+    color:black;
+}
+.container-fluid{
+    text-align: center;
+    height:8rem;
+}
+.container-fluid p{
+    padding-top:2.5rem;
+}
+
+@media only screen and (max-width: 1000px){
+   .text .images img{
+       width: 100%;
+       margin-top:15rem;
+       text-align: center;
+    }
+    .text .box1 h1{      
+        font-size: 3.5rem;
+    }
+    .text1 h1{
+        font-size:2rem ;
+    }
+    .section3 .leftB{
+        display: none;
+    }
+    .rightB h1{
+        margin-top:5rem;
+    }
+    .section3 {
+        padding-bottom:5rem;
+    }
+    .core{
+        text-align: center;
+    }
+    .core1{
+        text-align: center;
+    }
+    .testimonial .maincard{
+        margin:0 auto;
+        margin-bottom: 2rem;
+    }
+    footer{
+        padding:4.5rem;
+    }
+    footer .part1 p{
+        padding:0;
+    }
+    
+}
